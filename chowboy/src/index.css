@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Starborn';
+  src: url('/public/fonts/Starborn.ttf') format('truetype'); /* Adjust the path if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F0ECEA;
+  font-family: "DM Sans";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #350200;
+  justify-content: space-between;
+}
+
+.navbar-icon {
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+}
+
