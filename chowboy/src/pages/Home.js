@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from 'typewriter-effect'
 import '../styles/Home.css'
+import {Link} from "react-router-dom"
 
 
 
@@ -22,7 +23,13 @@ function Home() {
 
       <div id="homepage-buttons">
         <button class="homepage-button">Sign Up</button>
+        <Link to='/'>
+        {/* <img class="navbar-icon" src="/images/navbar-icon.png" alt="star icon"/> */}
+        </Link>
+        
+        <Link to='/login'>
         <button class="homepage-button">Log In</button>
+        </Link>
       </div>
       
     </div>
