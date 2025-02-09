@@ -26,8 +26,6 @@ function Faq() {
             <p><b>Q: Is there a code of conduct for the feed page? </b></p>
             <p>A: Yes. Chowboy does not tolerate any forms of harassment, bullying, threats of violence, predatory or inappropriate behavior, spam, or graphic content. Users can report any inappropriate feed messages, and Chowboy will remove all violations within a timely manner. You may be removed from the site if repeated offenses are observed. </p>
 
-
-
         </div>
     </div>
     

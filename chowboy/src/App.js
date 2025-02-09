@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Faq from "./pages/Faq";
+import SignUp from "./pages/SignUp";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,80 @@
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+#signup-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup-header {
+    font-family: 'Starborn';
+    color: #350200;
+    font-size: 55px;
+    padding: 20px;
+}
+
+.input-text {
+    margin: 10px;
+    color: #92AFE2;
+    font-family: "DM Sans";
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    padding: 12px;
+}
+
+input::placeholder {
+    color: #92AFE2;
+    font-family: "DM Sans";
+}
+
+#radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px; 
+    align-items: center;
+    justify-content: center;
+}
+
+#radio-option {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    padding: 20px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+
+#signup-button {
+    margin: 10px;
+    background-color: #350200;
+    color: #ffffff;
+    font-family: 'Starborn';
+    border-radius: 15px;
+    border: none;
+    height: 55px;
+    width: 420px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#bottom-log-in-link {
+    color:#92AFE2;
+    text-decoration: underline;
+    text-decoration-color:#92AFE2;
+    padding: 20px;
+}
