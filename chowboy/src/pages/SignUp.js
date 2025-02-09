@@ -9,7 +9,7 @@ function SignUp() {
             <div id="signup-body">
                 <div id="signup-header">Sign Up</div>
                 <input class="input-text" type="text" placeholder="Username"/>
-                <input class="input-text" type="text" placeholder="Password"/>
+                <input class="input-text" type="password" placeholder="Password"/>
 
                 <form id="radio-group">
                     <p class="input-text">Role</p>
