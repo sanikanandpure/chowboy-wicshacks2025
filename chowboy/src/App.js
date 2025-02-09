@@ -5,14 +5,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/About"
+import Login from "./pages/Login"
 import Faq from "./pages/Faq";
 import SignUp from "./pages/SignUp";
 import Events from "./pages/Events"
 import Feed from "./pages/Feed"
 import Codes from "./pages/Codes"
 import Popup from "./pages/Popup"
-
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/events" element={<Events />} />
