@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"; // Needed for navigation
 
 function Navbar() {
-  return (
+    return (
     <nav class="navbar">
     <Link to='/'>
         <img class="navbar-icon" src="/images/navbar-icon.png" alt="star icon"/>

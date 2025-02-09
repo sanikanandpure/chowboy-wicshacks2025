@@ -8,6 +8,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Faq from "./pages/Faq";
 import SignUp from "./pages/SignUp";
+import Events from "./pages/Events"
+import Feed from "./pages/Feed"
+import Codes from "./pages/Codes"
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/feed" element={<Feed />} />
+        <Route path="/codes" element={<Codes />} />
       </Routes>
     </Router>
   );
