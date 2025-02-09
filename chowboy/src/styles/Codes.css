@@ -3,7 +3,8 @@
 
 .code-card {
     background-color: #DEEAFF;
-    max-width: auto-fit;
+    /* max-width: auto-fit; */
+    /* max-height: 100px; */
     padding-left: 30px;
     padding-right: 30px;
     margin: 20px;
@@ -13,7 +14,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 15px;
+
+    height: 100px;
 }
 
 .code-icon {
@@ -23,7 +27,7 @@
 
 .code-code {
     font-family: 'Starborn';
-    font-size: 30px;
+    font-size: 22px;
     color: #350200;
     margin-right: 25px;
 }
@@ -43,7 +47,6 @@
     margin-left: 0;
 }
 
-
 /* Styling for Codes page */
 
 #events-code {
@@ -52,7 +55,13 @@
     align-items: center;
     justify-content: center;
     padding: 30px;
-    gap: 100px;
+    gap: 50px;
+}
+
+.main-left-code {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 #code-plus {
@@ -61,4 +70,7 @@
     margin-right: 0;
 }
 
+.main-right-code {
+    margin-top: -50px;
+}
 

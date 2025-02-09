@@ -1,11 +1,11 @@
 #feed {
-    display: flex; 
+    /* display: flex; 
     justify-content: space-between; /* Adjusts spacing */
-    align-items: flex-start; /* Aligns items at the top */
+    /* align-items: flex-start; Aligns items at the top */
 }
 
 .main-left {
-    flex: 1;
+    /* flex: 1; */
     max-width: 50%;
     display: flex;
     flex-direction: column;
@@ -13,10 +13,10 @@
 }
 
 .main-right {
-    flex: 1;
-    max-width: 30%;
+    /* flex: 1; */
+    /* max-width: 30%; */
     display: flex;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     justify-content: center;
 }
 
@@ -29,15 +29,18 @@
     background-color: #DEEAFF;
     width: 545px;
     padding: 20px;
-    margin: 20px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-bottom: 0px; */
     border-radius: 20px;
     border: 2px solid #350200;
+    height: 100px;
+    width: 500px;
 }
 
 .feed-title {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .upvotes-block {

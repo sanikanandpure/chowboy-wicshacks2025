@@ -1,54 +1,63 @@
 #feed {
+    
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative; /* Ensures absolute positioning inside */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
 }
 
-.main-left {
-    flex: 1;
-    max-width: 60%;
+.main-left-feed {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* max-width: 60%; */
 }
 
-.main-right {
-    flex: 1;
-    max-width: 40%;
+.send-msg {
     display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-right-feed {
+    /* flex: 1; */
+    /* max-width: 40%; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 #cards {
     display: flex;
     flex-direction: column;
-    gap: -10px; /* Adjust this value to control spacing */
+    gap: 5px; /* Adjust this value to control spacing */
 }
 
 .FeedCard {
-    margin-bottom: -8px; /* Reduce bottom margin */
+    /* margin-bottom: 8px; Reduce bottom margin */
     padding: 10px; /* Adjust padding inside cards */
+    
 }
 
 #map {
-    margin-left: 20px; /* Adjust as needed */
-    margin-top: 15px;
-    max-width: 40%;
-}
-
-.send-img {
-    position: absolute;
-    right: 620px; /* Adjust for correct positioning */
-    top: 525px;
-    bottom: 20px;
+    /* margin-left: 20px; /* Adjust as needed */
+    margin-top: -40px;
+    /* max-width: 40%; */
+    /* max-width: 100%;
+    height: auto; */
 }
 
 #input-text {
-    width: 525px;
+    width: 500px;
     height: 45px;
-    position: absolute;
-    right: 665px; /* Adjust position without affecting the map */
-    top: 515px;
-    bottom: 25px;
+    /* position: absolute;
+    /* right: 665px; */
+    /* top: 515px;
+    bottom: 25px; */
     border-radius: 15px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     font-size: 16px;
 }
