@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About"
 import Login from "./pages/Login"
-import About from "./pages/About";
 import Faq from "./pages/Faq";
 import SignUp from "./pages/SignUp";
 import Events from "./pages/Events"

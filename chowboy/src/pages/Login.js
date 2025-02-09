@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Login.css'
+import { Link } from "react-router-dom"; // Needed for navigation
 
 
 function Login() {
@@ -18,19 +19,17 @@ function Login() {
     //   </div>
       
     // </div>
-    <div>
-    <div id="login-title">
-        <div>Log In</div>
-    </div>
+      <div id="login">
+            <div id="login-body">
+                <div id="login-header">Log In</div>
+                <input class="input-text" type="text" placeholder="Username"/>
+                <input class="input-text" type="text" placeholder="Password"/>
 
-    
-    <div id="login-body">
-      <div>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-      </div>
-    </div>
-  </div>
+                <button id="login-button">
+                    <Link to="/events">Let's get chowing!</Link>
+                </button>
+            </div>
+        </div>
   );
   
 }
