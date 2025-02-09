@@ -21,7 +21,9 @@ function SignUp() {
                     </label>
                 </form>
 
-                <button id="signup-button">Let's Eat!</button>
+                <button id="signup-button">
+                    <Link to="/events">Let's Eat!</Link>
+                </button>
 
                 <Link to='/login' id="bottom-log-in-link">Already have an account? Log in.</Link>
             </div>
