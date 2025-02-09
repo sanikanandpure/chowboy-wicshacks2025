@@ -11,6 +11,8 @@ import SignUp from "./pages/SignUp";
 import Events from "./pages/Events"
 import Feed from "./pages/Feed"
 import Codes from "./pages/Codes"
+import Popup from "./pages/Popup"
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/feed" element={<Feed />} />
         <Route path="/codes" element={<Codes />} />
+        <Route path="/popup" element={<Popup />} />
       </Routes>
     </Router>
   );

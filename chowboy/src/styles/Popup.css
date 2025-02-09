@@ -1,0 +1,102 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-title {
+    font-family: "Starborn";
+    font-size: 50px;
+    color: #350200;
+}
+
+.top-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.middle-part {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 670px;
+}
+
+
+.button-row {
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+#name {
+    width: 650px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#address, #food-type, #rsvp-link {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#start-time, #end-time, #date {
+    margin: 20px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#popup-bevo, #popup-gf, #popup-vegan {
+    height: 20px;
+}
+
+.popup-button {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .popup-button.selected {
+    background-color: #92AFE2;
+    color: #350200;
+    font-family: "DM Sans";
+    border: none;
+  }
+
+#popup-submit {
+    background-color:#350200;
+    border-radius: 20px;
+    font-family: "Starborn";
+    color: white;
+    border: none;
+    height: 55px;
+    width: 420px;
+    font-size: 20px;
+}
