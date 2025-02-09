@@ -1,1 +1,1 @@
-![Logo](chowboy_logo.png)
+![Logo](chowboy_logo2.png)
