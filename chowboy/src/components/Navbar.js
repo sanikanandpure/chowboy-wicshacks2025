@@ -9,7 +9,7 @@ function Navbar() {
     </Link>
       <ul class="nav-links">
         <li><Link to='/about'>About Us</Link></li>
-        <li>FAQ</li>
+        <li><Link to='/faq'>FAQ</Link></li>
       </ul>
     </nav>
   );
