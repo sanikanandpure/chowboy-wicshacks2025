@@ -1,0 +1,23 @@
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+    font-family: 'Starborn';
+    color: #350200;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #F0ECEA;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #350200;
+    cursor: pointer;
+  }
+  
+  .nav-button.active {
+    background-color: #92AFE2; /* Highlight active button */
+  }
