@@ -1,35 +1,57 @@
-#login-title {
+#login {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-family: 'Starborn';
-    color: #350200;
-    font-size: 60px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 60px;
 }
 
 #login-body {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Adds space between inputs */
-    width: 100%; /* Adjust width as needed */
-    max-width: 300px; /* Prevents stretching */
-    margin: auto; /* Centers the input box */
+    align-items: center;
+    justify-content: center;
 }
 
-#login-input {
-width: 100%;
-padding: 12px;
-font-family: 'DM Sans', sans-serif;
-font-size: 16px;
-border: 1px solid #ccc;
-border-radius: 10px; /* Rounded corners */
-outline: none;
-transition: border 0.3s;
-padding-bottom: 70px;
+#login-header {
+    font-family: 'Starborn';
+    color: #350200;
+    font-size: 55px;
+    padding: 20px;
 }
 
-#login-input:focus {
-border-color: #5c67f2; /* Highlight color when clicked */
+.login-text {
+    margin: 10px;
+    color: #92AFE2;
+    font-family: "DM Sans";
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    padding: 12px;
 }
+
+input::placeholder {
+    color: #92AFE2;
+    font-family: "DM Sans";
+}
+
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+
+#login-button {
+    margin: 10px;
+    background-color: #350200;
+    color: #ffffff;
+    font-family: 'Starborn';
+    border-radius: 15px;
+    border: none;
+    height: 55px;
+    width: 420px;
+    font-size: 20px;
+    padding: 15px;
+}
+

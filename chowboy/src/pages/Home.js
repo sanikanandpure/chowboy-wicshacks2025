@@ -1,8 +1,8 @@
 import React from "react";
 import Typewriter from 'typewriter-effect'
 import '../styles/Home.css'
-import {Link} from "react-router-dom"
-
+// import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"; // Needed for navigation
 
 
 function Home() {
@@ -21,12 +21,7 @@ function Home() {
         </div>
       </div>
 
-      <div id="homepage-buttons">
-        <button class="homepage-button">Sign Up</button>
-        <Link to='/'>
-        {/* <img class="navbar-icon" src="/images/navbar-icon.png" alt="star icon"/> */}
-        </Link>
-        
+      <div id="homepage-buttons">    
         <Link to='/login'>
         <button class="homepage-button">
           <Link to='/signup'>Sign Up</Link>

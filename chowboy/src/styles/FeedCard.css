@@ -1,0 +1,50 @@
+#feed {
+    display: flex; 
+    justify-content: space-between; /* Adjusts spacing */
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+.main-left {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-right {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.main-right img {
+    margin-left: -150px; /* Adjust spacing between elements */
+    margin-top: 25px;
+}
+
+.feed-card {
+    background-color: #DEEAFF;
+    width: 545px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border: 2px solid #350200;
+}
+
+.feed-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upvotes-block {
+    display: flex;
+    gap: 10px;
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+
