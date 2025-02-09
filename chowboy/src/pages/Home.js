@@ -5,7 +5,6 @@ import '../styles/Home.css'
 import { Link } from "react-router-dom"; // Needed for navigation
 
 
-
 function Home() {
   return (
     <div id="homepage-body">
