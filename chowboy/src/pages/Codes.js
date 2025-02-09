@@ -1,14 +1,14 @@
 import React from "react";
 import Typewriter from 'typewriter-effect'
 import MainBar from "../components/MainBar";
-import '../styles/Home.css';
+import '../styles/Codes.css';
 import CodeCard from "../components/CodeCard";
 
 
 function Codes() {
   return (
-    <div id="events">
-      <div class="main-left">
+    <div id="events-code">
+      <div class="main-left-code">
           <MainBar/>
           <CodeCard 
             iconLink="/images/icon-ubereats.png" code="eatfree15" expirationDate="2/12/25"
@@ -24,7 +24,7 @@ function Codes() {
           ></CodeCard>
           <img id="code-plus" src="/images/plus.png" width="40px" height="40px"></img>
       </div>
-      <div class="main-right">
+      <div class="main-right-code">
         <img src="/images/map.png" width="650" height="650"></img>
       </div>
     </div>
