@@ -32,11 +32,16 @@ code {
   height: 60px;
 }
 
-ul {
+.nav-links {
   display: flex;
   list-style: none;
   gap: 20px;
   color: white;
   font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 

@@ -30,4 +30,4 @@ function Home() {
   
 }
 
-export default Home; // ✅ Must use default export
+export default Home;

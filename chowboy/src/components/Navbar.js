@@ -7,8 +7,8 @@ function Navbar() {
     <Link to='/'>
         <img class="navbar-icon" src="/images/navbar-icon.png" alt="star icon"/>
     </Link>
-      <ul>
-        <li>About Us</li>
+      <ul class="nav-links">
+        <li><Link to='/about'>About Us</Link></li>
         <li>FAQ</li>
       </ul>
     </nav>
