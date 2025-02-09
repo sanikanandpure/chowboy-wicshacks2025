@@ -25,3 +25,41 @@
     justify-content: center;
     gap: 30px;
 }
+
+#team-heading {
+    font-family: 'Starborn';
+    color: #350200;
+    font-size: 40px;
+}
+
+#about-the-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#team-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.team-pic {
+    border-radius: 15px;
+    height: 300px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: underline;
+    color: #350200;
+}

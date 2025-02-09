@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect'
 import '../styles/Home.css'
 import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"; // Needed for navigation
 
 
 
@@ -28,6 +29,9 @@ function Home() {
         </Link>
         
         <Link to='/login'>
+        <button class="homepage-button">
+          <Link to='/signup'>Sign Up</Link>
+        </button>
         <button class="homepage-button">Log In</button>
         </Link>
       </div>
